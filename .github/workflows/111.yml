@@ -1,0 +1,10 @@
+name: Demo For HW-002
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu
+    steps:
+      - uses: actions/checkout@v4.1.7
